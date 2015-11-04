@@ -1,0 +1,463 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.google.zxing.BarcodeFormat
+com.google.zxing.Binarizer
+com.google.zxing.BinaryBitmap
+com.google.zxing.ChecksumException
+com.google.zxing.DecodeHintType
+com.google.zxing.EncodeHintType
+com.google.zxing.FormatException
+com.google.zxing.LuminanceSource
+com.google.zxing.MultiFormatReader
+com.google.zxing.MultiFormatWriter
+com.google.zxing.MultiFormatWriter$1
+com.google.zxing.NotFoundException
+com.google.zxing.Reader
+com.google.zxing.ReaderException
+com.google.zxing.Result
+com.google.zxing.ResultMetadataType
+com.google.zxing.ResultPoint
+com.google.zxing.ResultPointCallback
+com.google.zxing.Writer
+com.google.zxing.WriterException
+com.google.zxing.aztec.AztecDetectorResult
+com.google.zxing.aztec.AztecReader
+com.google.zxing.aztec.decoder.Decoder
+com.google.zxing.aztec.decoder.Decoder$1
+com.google.zxing.aztec.decoder.Decoder$Table
+com.google.zxing.aztec.detector.Detector
+com.google.zxing.aztec.detector.Detector$1
+com.google.zxing.aztec.detector.Detector$Point
+com.google.zxing.client.result.AbstractDoCoMoResultParser
+com.google.zxing.client.result.AddressBookAUResultParser
+com.google.zxing.client.result.AddressBookDoCoMoResultParser
+com.google.zxing.client.result.AddressBookParsedResult
+com.google.zxing.client.result.BizcardResultParser
+com.google.zxing.client.result.BookmarkDoCoMoResultParser
+com.google.zxing.client.result.CalendarParsedResult
+com.google.zxing.client.result.EmailAddressParsedResult
+com.google.zxing.client.result.EmailAddressResultParser
+com.google.zxing.client.result.EmailDoCoMoResultParser
+com.google.zxing.client.result.ExpandedProductParsedResult
+com.google.zxing.client.result.ExpandedProductResultParser
+com.google.zxing.client.result.GeoParsedResult
+com.google.zxing.client.result.GeoResultParser
+com.google.zxing.client.result.ISBNParsedResult
+com.google.zxing.client.result.ISBNResultParser
+com.google.zxing.client.result.ParsedResult
+com.google.zxing.client.result.ParsedResultType
+com.google.zxing.client.result.ProductParsedResult
+com.google.zxing.client.result.ProductResultParser
+com.google.zxing.client.result.ResultParser
+com.google.zxing.client.result.SMSMMSResultParser
+com.google.zxing.client.result.SMSParsedResult
+com.google.zxing.client.result.SMSTOMMSTOResultParser
+com.google.zxing.client.result.SMTPResultParser
+com.google.zxing.client.result.TelParsedResult
+com.google.zxing.client.result.TelResultParser
+com.google.zxing.client.result.TextParsedResult
+com.google.zxing.client.result.URIParsedResult
+com.google.zxing.client.result.URIResultParser
+com.google.zxing.client.result.URLTOResultParser
+com.google.zxing.client.result.VCardResultParser
+com.google.zxing.client.result.VEventResultParser
+com.google.zxing.client.result.WifiParsedResult
+com.google.zxing.client.result.WifiResultParser
+com.google.zxing.common.BitArray
+com.google.zxing.common.BitMatrix
+com.google.zxing.common.BitSource
+com.google.zxing.common.CharacterSetECI
+com.google.zxing.common.DecoderResult
+com.google.zxing.common.DefaultGridSampler
+com.google.zxing.common.DetectorResult
+com.google.zxing.common.GlobalHistogramBinarizer
+com.google.zxing.common.GridSampler
+com.google.zxing.common.HybridBinarizer
+com.google.zxing.common.PerspectiveTransform
+com.google.zxing.common.StringUtils
+com.google.zxing.common.detector.MonochromeRectangleDetector
+com.google.zxing.common.detector.WhiteRectangleDetector
+com.google.zxing.common.reedsolomon.GenericGF
+com.google.zxing.common.reedsolomon.GenericGFPoly
+com.google.zxing.common.reedsolomon.ReedSolomonDecoder
+com.google.zxing.common.reedsolomon.ReedSolomonEncoder
+com.google.zxing.common.reedsolomon.ReedSolomonException
+com.google.zxing.datamatrix.DataMatrixReader
+com.google.zxing.datamatrix.decoder.BitMatrixParser
+com.google.zxing.datamatrix.decoder.DataBlock
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser$1
+com.google.zxing.datamatrix.decoder.DecodedBitStreamParser$Mode
+com.google.zxing.datamatrix.decoder.Decoder
+com.google.zxing.datamatrix.decoder.Version
+com.google.zxing.datamatrix.decoder.Version$1
+com.google.zxing.datamatrix.decoder.Version$ECB
+com.google.zxing.datamatrix.decoder.Version$ECBlocks
+com.google.zxing.datamatrix.detector.Detector
+com.google.zxing.datamatrix.detector.Detector$1
+com.google.zxing.datamatrix.detector.Detector$ResultPointsAndTransitions
+com.google.zxing.datamatrix.detector.Detector$ResultPointsAndTransitionsComparator
+com.google.zxing.maxicode.MaxiCodeReader
+com.google.zxing.maxicode.decoder.BitMatrixParser
+com.google.zxing.maxicode.decoder.DecodedBitStreamParser
+com.google.zxing.maxicode.decoder.Decoder
+com.google.zxing.multi.ByQuadrantReader
+com.google.zxing.multi.GenericMultipleBarcodeReader
+com.google.zxing.multi.MultipleBarcodeReader
+com.google.zxing.multi.qrcode.QRCodeMultiReader
+com.google.zxing.multi.qrcode.detector.MultiDetector
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$1
+com.google.zxing.multi.qrcode.detector.MultiFinderPatternFinder$ModuleSizeComparator
+com.google.zxing.oned.CodaBarReader
+com.google.zxing.oned.CodaBarWriter
+com.google.zxing.oned.Code128Reader
+com.google.zxing.oned.Code128Writer
+com.google.zxing.oned.Code39Reader
+com.google.zxing.oned.Code39Writer
+com.google.zxing.oned.Code93Reader
+com.google.zxing.oned.EAN13Reader
+com.google.zxing.oned.EAN13Writer
+com.google.zxing.oned.EAN8Reader
+com.google.zxing.oned.EAN8Writer
+com.google.zxing.oned.EANManufacturerOrgSupport
+com.google.zxing.oned.ITFReader
+com.google.zxing.oned.ITFWriter
+com.google.zxing.oned.MultiFormatOneDReader
+com.google.zxing.oned.MultiFormatUPCEANReader
+com.google.zxing.oned.OneDReader
+com.google.zxing.oned.OneDimensionalCodeWriter
+com.google.zxing.oned.UPCAReader
+com.google.zxing.oned.UPCAWriter
+com.google.zxing.oned.UPCEANExtensionSupport
+com.google.zxing.oned.UPCEANReader
+com.google.zxing.oned.UPCEANWriter
+com.google.zxing.oned.UPCEReader
+com.google.zxing.oned.rss.AbstractRSSReader
+com.google.zxing.oned.rss.DataCharacter
+com.google.zxing.oned.rss.FinderPattern
+com.google.zxing.oned.rss.Pair
+com.google.zxing.oned.rss.RSS14Reader
+com.google.zxing.oned.rss.RSSUtils
+com.google.zxing.oned.rss.expanded.BitArrayBuilder
+com.google.zxing.oned.rss.expanded.ExpandedPair
+com.google.zxing.oned.rss.expanded.RSSExpandedReader
+com.google.zxing.oned.rss.expanded.decoders.AI013103decoder
+com.google.zxing.oned.rss.expanded.decoders.AI01320xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI01392xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI01393xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI013x0x1xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI013x0xDecoder
+com.google.zxing.oned.rss.expanded.decoders.AI01AndOtherAIs
+com.google.zxing.oned.rss.expanded.decoders.AI01decoder
+com.google.zxing.oned.rss.expanded.decoders.AI01weightDecoder
+com.google.zxing.oned.rss.expanded.decoders.AbstractExpandedDecoder
+com.google.zxing.oned.rss.expanded.decoders.AnyAIDecoder
+com.google.zxing.oned.rss.expanded.decoders.BlockParsedResult
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState
+com.google.zxing.oned.rss.expanded.decoders.CurrentParsingState$State
+com.google.zxing.oned.rss.expanded.decoders.DecodedChar
+com.google.zxing.oned.rss.expanded.decoders.DecodedInformation
+com.google.zxing.oned.rss.expanded.decoders.DecodedNumeric
+com.google.zxing.oned.rss.expanded.decoders.DecodedObject
+com.google.zxing.oned.rss.expanded.decoders.FieldParser
+com.google.zxing.oned.rss.expanded.decoders.GeneralAppIdDecoder
+com.google.zxing.pdf417.PDF417Reader
+com.google.zxing.pdf417.decoder.BitMatrixParser
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser$1
+com.google.zxing.pdf417.decoder.DecodedBitStreamParser$Mode
+com.google.zxing.pdf417.decoder.Decoder
+com.google.zxing.pdf417.detector.Detector
+com.google.zxing.pdf417.encoder.BarcodeMatrix
+com.google.zxing.pdf417.encoder.BarcodeRow
+com.google.zxing.pdf417.encoder.Compaction
+com.google.zxing.pdf417.encoder.PDF417
+com.google.zxing.pdf417.encoder.PDF417ErrorCorrection
+com.google.zxing.pdf417.encoder.PDF417HighLevelEncoder
+com.google.zxing.pdf417.encoder.PDF417Writer
+com.google.zxing.qrcode.QRCodeReader
+com.google.zxing.qrcode.QRCodeWriter
+com.google.zxing.qrcode.decoder.BitMatrixParser
+com.google.zxing.qrcode.decoder.DataBlock
+com.google.zxing.qrcode.decoder.DataMask
+com.google.zxing.qrcode.decoder.DataMask$1
+com.google.zxing.qrcode.decoder.DataMask$DataMask000
+com.google.zxing.qrcode.decoder.DataMask$DataMask001
+com.google.zxing.qrcode.decoder.DataMask$DataMask010
+com.google.zxing.qrcode.decoder.DataMask$DataMask011
+com.google.zxing.qrcode.decoder.DataMask$DataMask100
+com.google.zxing.qrcode.decoder.DataMask$DataMask101
+com.google.zxing.qrcode.decoder.DataMask$DataMask110
+com.google.zxing.qrcode.decoder.DataMask$DataMask111
+com.google.zxing.qrcode.decoder.DecodedBitStreamParser
+com.google.zxing.qrcode.decoder.Decoder
+com.google.zxing.qrcode.decoder.ErrorCorrectionLevel
+com.google.zxing.qrcode.decoder.FormatInformation
+com.google.zxing.qrcode.decoder.Mode
+com.google.zxing.qrcode.decoder.Version
+com.google.zxing.qrcode.decoder.Version$ECB
+com.google.zxing.qrcode.decoder.Version$ECBlocks
+com.google.zxing.qrcode.detector.AlignmentPattern
+com.google.zxing.qrcode.detector.AlignmentPatternFinder
+com.google.zxing.qrcode.detector.Detector
+com.google.zxing.qrcode.detector.FinderPattern
+com.google.zxing.qrcode.detector.FinderPatternFinder
+com.google.zxing.qrcode.detector.FinderPatternFinder$1
+com.google.zxing.qrcode.detector.FinderPatternFinder$CenterComparator
+com.google.zxing.qrcode.detector.FinderPatternFinder$FurthestFromAverageComparator
+com.google.zxing.qrcode.detector.FinderPatternInfo
+com.google.zxing.qrcode.encoder.BlockPair
+com.google.zxing.qrcode.encoder.ByteMatrix
+com.google.zxing.qrcode.encoder.Encoder
+com.google.zxing.qrcode.encoder.Encoder$1
+com.google.zxing.qrcode.encoder.MaskUtil
+com.google.zxing.qrcode.encoder.MatrixUtil
+com.google.zxing.qrcode.encoder.QRCode
+com.treb.reviewsearcher.BuildConfig
+com.treb.reviewsearcher.Constants
+com.treb.reviewsearcher.MainActivity:
+    private static final java.lang.String PREFS_NAME
+com.treb.reviewsearcher.R
+com.treb.reviewsearcher.R$attr
+com.treb.reviewsearcher.R$drawable
+com.treb.reviewsearcher.R$id
+com.treb.reviewsearcher.R$layout
+com.treb.reviewsearcher.R$menu
+com.treb.reviewsearcher.R$string
+com.treb.reviewsearcher.Review:
+    private static final long serialVersionUID
+    63:80:public static com.treb.reviewsearcher.Review fromString(java.lang.String)
+com.treb.reviewsearcher.productReview.CriticReviewLoader
+com.treb.reviewsearcher.productReview.DetailedProductReview:
+    60:60:public java.util.List getCriticReviews()
+    70:70:public java.util.List getUserReviews()
+com.treb.reviewsearcher.productReview.DetailedProductReviewLoader:
+    139:141:public void addCriticReviews(java.util.List)
+    145:147:public void addUserReviews(java.util.List)
+com.treb.reviewsearcher.productReview.SubmittedProductReview
+com.treb.reviewsearcher.productReview.UserReviewLoader
+com.treb.reviewsearcher.productsearcher.GoogleSearcher:
+    private static final java.lang.String GOOGLE_QUERY
+com.treb.reviewsearcher.productsearcher.MetacriticSearcher:
+    private static final java.lang.String SearchURL
+com.treb.reviewsearcher.scanner.IntentIntegrator:
+    public static final int REQUEST_CODE
+    public static final java.lang.String DEFAULT_TITLE
+    public static final java.lang.String DEFAULT_MESSAGE
+    public static final java.lang.String DEFAULT_YES
+    public static final java.lang.String DEFAULT_NO
+    private static final java.lang.String BS_PACKAGE
+    146:146:public java.lang.String getTitle()
+    151:152:public void setTitle(java.lang.String)
+    156:157:public void setTitleByID(int)
+    161:161:public java.lang.String getMessage()
+    166:167:public void setMessage(java.lang.String)
+    171:172:public void setMessageByID(int)
+    176:176:public java.lang.String getButtonYes()
+    181:182:public void setButtonYes(java.lang.String)
+    186:187:public void setButtonYesByID(int)
+    191:191:public java.lang.String getButtonNo()
+    196:197:public void setButtonNo(java.lang.String)
+    201:202:public void setButtonNoByID(int)
+    206:206:public java.util.Collection getTargetApplications()
+    211:212:public void setTargetApplications(java.util.Collection)
+    216:217:public void setSingleTargetApplication(java.lang.String)
+    372:388:public void shareText(java.lang.CharSequence)
+com.treb.reviewsearcher.scanner.IntentResult:
+    64:64:public java.lang.String getFormatName()
+    72:72:public byte[] getRawBytes()
+    80:80:public java.lang.Integer getOrientation()
+    88:88:public java.lang.String getErrorCorrectionLevel()
+com.treb.reviewsearcher.serializer.ReviewSerializer
+org.htmlcleaner.BaseToken:
+    public abstract void serialize(org.htmlcleaner.Serializer,java.io.Writer)
+org.htmlcleaner.BrowserCompactXmlSerializer
+org.htmlcleaner.CleanerProperties:
+    public static final java.lang.String BOOL_ATT_SELF
+    public static final java.lang.String BOOL_ATT_EMPTY
+    public static final java.lang.String BOOL_ATT_TRUE
+    75:75:public org.htmlcleaner.ITagInfoProvider getTagInfoProvider()
+    83:84:public void setAdvancedXmlEscape(boolean)
+    87:87:public boolean isTransResCharsToNCR()
+    91:92:public void setTransResCharsToNCR(boolean)
+    99:100:public void setUseCdataForScriptAndStyle(boolean)
+    107:108:public void setTranslateSpecialEntities(boolean)
+    115:116:public void setTransSpecialEntitiesToNCR(boolean)
+    123:124:public void setRecognizeUnicodeChars(boolean)
+    131:132:public void setOmitUnknownTags(boolean)
+    139:140:public void setTreatUnknownTagsAsContent(boolean)
+    147:148:public void setOmitDeprecatedTags(boolean)
+    155:156:public void setTreatDeprecatedTagsAsContent(boolean)
+    163:164:public void setOmitComments(boolean)
+    167:167:public boolean isOmitXmlDeclaration()
+    171:172:public void setOmitXmlDeclaration(boolean)
+    175:175:public boolean isOmitDoctypeDeclaration()
+    179:180:public void setOmitDoctypeDeclaration(boolean)
+    183:183:public boolean isOmitHtmlEnvelope()
+    187:188:public void setOmitHtmlEnvelope(boolean)
+    191:191:public boolean isUseEmptyElementTags()
+    195:196:public void setUseEmptyElementTags(boolean)
+    203:204:public void setAllowMultiWordAttributes(boolean)
+    211:212:public void setAllowHtmlInsideAttributes(boolean)
+    219:220:public void setIgnoreQuestAndExclam(boolean)
+    227:228:public void setNamespacesAware(boolean)
+    235:236:public void setHyphenReplacementInComment(java.lang.String)
+    239:239:public java.lang.String getPruneTags()
+    243:244:public void setPruneTags(java.lang.String)
+    247:247:public java.lang.String getBooleanAttributeValues()
+    251:258:public void setBooleanAttributeValues(java.lang.String)
+org.htmlcleaner.CleanerTransformations:
+    46:48:public CleanerTransformations()
+    55:58:public void addTransformation(org.htmlcleaner.TagTransformation)
+org.htmlcleaner.CommandLine
+org.htmlcleaner.CommentNode:
+    69:70:public void serialize(org.htmlcleaner.Serializer,java.io.Writer)
+org.htmlcleaner.CompactHtmlSerializer
+org.htmlcleaner.CompactXmlSerializer
+org.htmlcleaner.ConfigFileTagProvider
+org.htmlcleaner.ConfigFileTagProvider$ConfigParser
+org.htmlcleaner.ContentNode:
+    50:52:public ContentNode(java.lang.String)
+    64:64:public java.lang.StringBuilder getContent()
+    68:69:public void serialize(org.htmlcleaner.Serializer,java.io.Writer)
+org.htmlcleaner.DefaultTagProvider:
+    477:480:public void removeTagInfo(java.lang.String)
+    487:490:public void addTagInfo(org.htmlcleaner.TagInfo)
+org.htmlcleaner.DoctypeToken:
+    75:91:public boolean isValid()
+    111:111:public java.lang.String getName()
+    115:116:public void serialize(org.htmlcleaner.Serializer,java.io.Writer)
+    119:119:public java.lang.String getPart1()
+    123:123:public java.lang.String getPart2()
+    127:127:public java.lang.String getPart3()
+    131:131:public java.lang.String getPart4()
+org.htmlcleaner.EndTagToken:
+    61:61:public void serialize(org.htmlcleaner.Serializer,java.io.Writer)
+org.htmlcleaner.HtmlCleaner:
+    252:253:public HtmlCleaner(org.htmlcleaner.ITagInfoProvider)
+    260:261:public HtmlCleaner(org.htmlcleaner.CleanerProperties)
+    276:279:public org.htmlcleaner.TagNode clean(java.lang.String)
+    284:286:public org.htmlcleaner.TagNode clean(java.io.File,java.lang.String)
+    290:290:public org.htmlcleaner.TagNode clean(java.io.File)
+    294:304:public org.htmlcleaner.TagNode clean(java.net.URL,java.lang.String)
+    317:317:public org.htmlcleaner.TagNode clean(java.net.URL)
+    321:321:public org.htmlcleaner.TagNode clean(java.io.InputStream,java.lang.String)
+    325:325:public org.htmlcleaner.TagNode clean(java.io.InputStream)
+    799:799:public org.htmlcleaner.CleanerProperties getProperties()
+    817:817:public org.htmlcleaner.ITagInfoProvider getTagInfoProvider()
+    824:824:public org.htmlcleaner.CleanerTransformations getTransformations()
+    832:833:public void setTransformations(org.htmlcleaner.CleanerTransformations)
+    840:851:public java.lang.String getInnerHtml(org.htmlcleaner.TagNode)
+    862:882:public void setInnerHtml(org.htmlcleaner.TagNode,java.lang.String)
+org.htmlcleaner.HtmlCleanerException:
+    51:52:public HtmlCleanerException(java.lang.Throwable)
+    59:60:public HtmlCleanerException(java.lang.String,java.lang.Throwable)
+org.htmlcleaner.HtmlCleanerForAnt
+org.htmlcleaner.HtmlNode
+org.htmlcleaner.HtmlSerializer
+org.htmlcleaner.HtmlTokenizer:
+    private static final int WORKING_BUFFER_SIZE
+    226:226:private boolean isWhitespace()
+    265:265:private char getCurrentChar()
+org.htmlcleaner.JDomSerializer
+org.htmlcleaner.PrettyHtmlSerializer
+org.htmlcleaner.PrettyXmlSerializer
+org.htmlcleaner.Serializer
+org.htmlcleaner.Serializer$1
+org.htmlcleaner.Serializer$HeadlessTagNode
+org.htmlcleaner.SimpleHtmlSerializer
+org.htmlcleaner.SimpleXmlSerializer
+org.htmlcleaner.SpecialEntity:
+    345:345:public java.lang.String getKey()
+    349:349:public int getIntCode()
+    367:367:public java.lang.String getHexNCR()
+    374:374:public java.lang.String getEscapedValue()
+org.htmlcleaner.TagInfo:
+    protected static final int HEAD_AND_BODY
+    protected static final int HEAD
+    protected static final int BODY
+    protected static final int CONTENT_ALL
+    protected static final int CONTENT_NONE
+    protected static final int CONTENT_TEXT
+    213:214:public void setName(java.lang.String)
+    217:217:public int getContentType()
+    221:221:public java.util.Set getMustCloseTags()
+    225:226:public void setMustCloseTags(java.util.Set)
+    229:229:public java.util.Set getHigherTags()
+    233:234:public void setHigherTags(java.util.Set)
+    237:237:public java.util.Set getChildTags()
+    241:242:public void setChildTags(java.util.Set)
+    249:250:public void setPermittedTags(java.util.Set)
+    253:253:public java.util.Set getCopyTags()
+    257:258:public void setCopyTags(java.util.Set)
+    261:261:public java.util.Set getContinueAfterTags()
+    265:266:public void setContinueAfterTags(java.util.Set)
+    273:274:public void setRequiredParent(java.lang.String)
+    277:277:public int getBelongsTo()
+    281:282:public void setBelongsTo(int)
+    289:290:public void setFatalTag(java.lang.String)
+    297:298:public void setDeprecated(boolean)
+    305:306:public void setUnique(boolean)
+    313:313:public boolean isEmptyTag()
+    317:318:public void setIgnorePermitted(boolean)
+org.htmlcleaner.TagNode:
+    144:149:public boolean setName(java.lang.String)
+    172:172:public boolean hasAttribute(java.lang.String)
+    183:184:public void addAttribute(java.lang.String,java.lang.String)
+    228:231:public void removeAttribute(java.lang.String)
+    245:245:public boolean hasChildren()
+    249:250:void setChildren(java.util.List)
+    268:274:public org.htmlcleaner.TagNode[] getChildTags()
+    303:303:public org.htmlcleaner.DoctypeToken getDocType()
+    346:365:private org.htmlcleaner.TagNode findElement(org.htmlcleaner.TagNode$ITagNodeCondition,boolean)
+    405:411:private org.htmlcleaner.TagNode[] getElements(org.htmlcleaner.TagNode$ITagNodeCondition,boolean)
+    420:420:public org.htmlcleaner.TagNode[] getAllElements(boolean)
+    424:424:public org.htmlcleaner.TagNode findElementByName(java.lang.String,boolean)
+    432:432:public org.htmlcleaner.TagNode[] getElementsByName(java.lang.String,boolean)
+    436:436:public org.htmlcleaner.TagNode findElementHavingAttribute(java.lang.String,boolean)
+    440:440:public java.util.List getElementListHavingAttribute(java.lang.String,boolean)
+    444:444:public org.htmlcleaner.TagNode[] getElementsHavingAttribute(java.lang.String,boolean)
+    448:448:public org.htmlcleaner.TagNode findElementByAttValue(java.lang.String,java.lang.String,boolean,boolean)
+    452:452:public java.util.List getElementListByAttValue(java.lang.String,java.lang.String,boolean,boolean)
+    456:456:public org.htmlcleaner.TagNode[] getElementsByAttValue(java.lang.String,java.lang.String,boolean,boolean)
+    513:514:public void removeAllChildren()
+    522:533:public void replaceChild(org.htmlcleaner.HtmlNode,org.htmlcleaner.HtmlNode)
+    540:547:public int getChildIndex(org.htmlcleaner.HtmlNode)
+    556:557:public void insertChild(int,org.htmlcleaner.HtmlNode)
+    565:569:public void insertChildBefore(org.htmlcleaner.HtmlNode,org.htmlcleaner.HtmlNode)
+    577:581:public void insertChildAfter(org.htmlcleaner.HtmlNode,org.htmlcleaner.HtmlNode)
+    641:642:public void traverse(org.htmlcleaner.TagNodeVisitor)
+    646:668:private boolean traverseInternally(org.htmlcleaner.TagNodeVisitor)
+    677:686:void collectNamespacePrefixesOnPath(java.util.Set)
+    705:706:public void serialize(org.htmlcleaner.Serializer,java.io.Writer)
+    51:51:static synthetic java.util.Map access$000(org.htmlcleaner.TagNode)
+org.htmlcleaner.TagNode$TagNodeAttExistsCondition
+org.htmlcleaner.TagNode$TagNodeAttValueCondition
+org.htmlcleaner.TagNodeVisitor
+org.htmlcleaner.TagTransformation:
+    private java.lang.String sourceTag
+    60:68:public TagTransformation(java.lang.String,java.lang.String,boolean)
+    77:78:public TagTransformation(java.lang.String,java.lang.String)
+    86:87:public TagTransformation(java.lang.String)
+    99:103:public void addAttributeTransformation(java.lang.String,java.lang.String)
+    111:112:public void addAttributeTransformation(java.lang.String)
+    119:119:java.lang.String getSourceTag()
+org.htmlcleaner.Utils:
+    52:52:public Utils()
+    72:83:public static java.lang.String ltrim(java.lang.String)
+    91:102:public static java.lang.String rtrim(java.lang.String)
+    106:117:public static java.lang.String getCharsetFromContentTypeString(java.lang.String)
+    121:136:public static java.lang.String getCharsetFromContent(java.net.URL)
+    140:140:public static boolean isHexadecimalDigit(char)
+    273:277:public static boolean isWhitespaceString(java.lang.Object)
+    296:311:public static boolean isValidXmlIdentifier(java.lang.String)
+    319:319:public static boolean isEmptyString(java.lang.Object)
+    360:371:public static java.lang.String[] tokenize(java.lang.String,java.lang.String)
+    375:402:public static void updateTagTransformations(org.htmlcleaner.CleanerTransformations,java.lang.String,java.lang.String)
+    411:415:public static boolean isFullUrl(java.lang.String)
+    424:451:public static java.lang.String fullUrl(java.lang.String,java.lang.String)
+org.htmlcleaner.XPatherException:
+    51:52:public XPatherException(java.lang.Throwable)
+    59:60:public XPatherException(java.lang.String,java.lang.Throwable)
+org.htmlcleaner.XmlSerializer

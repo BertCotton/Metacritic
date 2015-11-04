@@ -37,7 +37,7 @@ public class GoogleSearcher extends AsyncTask<String, Void, String>
 
 			HtmlCleaner cleaner = new HtmlCleaner();
 			TagNode node = cleaner.clean(new InputStreamReader(conn.getInputStream()));
-			Object[] resultNodes = node.evaluateXPath("//h3[@class='result-title']//a");
+			Object[] resultNodes = node.evaluateXPath("//h3[@class='r']//a");
 
 			// If the divs length is 0 then nothing was returned
 			// Otherwise remove anything that is in square bracket.  This is often the media type (ie. [CD])

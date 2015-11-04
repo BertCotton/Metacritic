@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:clickable="true"
+              android:gravity="center_vertical"
+              android:background="@drawable/gray_rounded_corner">
+
+    <TextView
+            android:id="@+id/reviewRowScore"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="100"
+            android:background="@drawable/score_box"/>
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  android:padding="7dp"
+            >
+        <TextView
+                android:id="@+id/reviewRowName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:text="Name"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+        <LinearLayout android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                >
+            <TextView
+                    android:id="@+id/reviewRowPlatform"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:text="Platform"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="10dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:text="  |  "
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="10dp"/>
+            <TextView
+                    android:id="@+id/reviewRowReleaseDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:text="Release Date"
+                    android:gravity="center_vertical"
+                    android:textColor="#000000"
+                    android:textSize="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

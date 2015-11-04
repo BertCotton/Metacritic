@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <LinearLayout android:id="@+id/productDetailAdBanner"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+            />
+    <ImageView
+            android:background="@drawable/white_line"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="2dp"/>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+        <TextView android:id="@+id/productReviewTitle"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Product Title"
+                  android:textSize="30dp"
+                  android:textStyle="bold"
+                  android:layout_centerHorizontal="true"
+                />
+        <LinearLayout android:id="@+id/productReviewMediaLayout"
+                      android:layout_width="wrap_content"
+                      android:layout_height="20dp"
+                      android:layout_below="@id/productReviewTitle"
+                      android:orientation="horizontal"
+                      android:layout_centerHorizontal="true"
+                >
+            <TextView android:id="@+id/productReviewReleaseDate"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text=""
+                      android:textSize="15dp"
+                    />
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="   |   "
+                      android:textSize="15dp"
+                    />
+            <TextView android:id="@+id/productReviewPlatform"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text=""
+                      android:textSize="15dp"
+                    />
+        </LinearLayout>
+        <ImageView
+                android:id="@+id/productReviewTitleDividingBar"
+                android:background="@drawable/white_line"
+                android:layout_width="fill_parent"
+                android:layout_below="@id/productReviewMediaLayout"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="2dp"/>
+
+        <ImageView android:id="@+id/productReviewThumbnail"
+                   android:layout_width="100dp"
+                   android:layout_height="120dp"
+                   android:visibility="invisible"
+                   android:layout_below="@id/productReviewTitleDividingBar"
+                />
+        <TextView android:id="@+id/productReviewMetaScore"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp"
+                  android:layout_alignTop="@id/productReviewThumbnail"
+                  android:layout_toRightOf="@id/productReviewThumbnail"
+                  android:text=""
+                  android:textSize="25dp"
+                  android:textColor="#000000"
+                  android:gravity="center_vertical|center_horizontal"
+                  android:layout_margin="2dp"
+                  android:background="@drawable/meta_score_box"/>
+        <TextView android:text="Metascore"
+                  android:layout_toRightOf="@id/productReviewMetaScore"
+                  android:layout_alignTop="@id/productReviewMetaScore"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:textSize="25dp"
+                  android:textColor="#FFFFFF"
+                />
+        <TextView android:id="@+id/productReviewUserScore"
+                  android:layout_width="50dp"
+                  android:layout_height="50dp"
+                  android:layout_below="@id/productReviewMetaScore"
+                  android:layout_toRightOf="@id/productReviewThumbnail"
+                  android:layout_margin="2dp"
+                  android:text=""
+                  android:textSize="25dp"
+                  android:textColor="#000000"
+                  android:gravity="center_vertical|center_horizontal"
+                  android:background="@drawable/user_score_circle"/>
+        <TextView android:text="User Score"
+                  android:layout_toRightOf="@id/productReviewUserScore"
+                  android:layout_alignTop="@id/productReviewUserScore"
+                  android:layout_height="wrap_content"
+                  android:layout_width="wrap_content"
+                  android:textSize="25dp"
+                  android:textColor="#FFFFFF"
+                />
+        <LinearLayout android:id="@+id/productReviewReviewLayout"
+                      android:layout_width="wrap_content"
+                      android:layout_height="30dp"
+                      android:layout_below="@id/productReviewThumbnail"
+                      android:orientation="horizontal"
+                      android:layout_centerHorizontal="true"
+                >
+            <TextView android:id="@+id/productReviewCriticReviews"
+                      android:text="Critic Reviews (0)"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:textSize="15dp"
+                      android:textColor="#AAAAFF"
+                      android:textStyle="bold"
+                      android:layout_gravity="center_vertical"
+                    />
+            <TextView android:layout_width="5dp" android:layout_height="1dp"/>
+            <TextView android:id="@+id/productReviewUserReviews"
+                      android:text="User Reviews (0)"
+                      android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:textSize="15dp"
+                      android:textStyle="bold"
+                      android:textColor="#AAAAFF"
+                      android:layout_gravity="center_vertical"
+
+                    />
+        </LinearLayout>
+        <ScrollView android:id="@+id/productReviewSummaryScrollView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="vertical"
+                    android:layout_below="@id/productReviewReviewLayout"
+                >
+
+            <TextView android:id="@+id/productReviewSummary"
+                      android:text=""
+                      android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+                      android:layout_margin="4dp"
+                      android:textSize="15dp"
+                      android:scrollbars="vertical"
+                      android:padding="4dp"
+                      android:scrollbarStyle="insideOverlay"
+                      android:textColor="#FFFFFF"
+                      android:background="@drawable/black_rounded_corner"
+                    />
+        </ScrollView>
+
+
+    </RelativeLayout>
+</LinearLayout>

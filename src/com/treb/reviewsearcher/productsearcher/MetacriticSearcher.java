@@ -22,6 +22,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -123,7 +124,13 @@ public class MetacriticSearcher extends AsyncTask<String, String, ArrayList<Revi
 						}
 					String releaseDate = getValueOfNode(doc, xpath, ".//li[contains(@class, 'release_date')]//span[contains(@class, 'data')]");
 					if (releaseDate != null && releaseDate.length() > 0)
-						review.setReleaseDate(df.parse(releaseDate));
+						try {
+							review.setReleaseDate(df.parse(releaseDate));
+						}
+						catch(ParseException ex)
+						{
+							Log.e(Constants.LOG_NAME, "Error parsing release date from " + releaseDate);
+						}
 					reviews.add(review);
 				}
 
